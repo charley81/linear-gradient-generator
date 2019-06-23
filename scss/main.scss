@@ -1,3 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #53b09b, #a8e3fb);
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
-  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  margin-top: 10vh;
+
+  header {
+    background: rgba(0, 0, 0, 0.2);
+    width: 500px;
+    padding: 1rem;
+    text-align: center;
+    margin: 0 2rem;
+
+    input {
+      margin: 1.5rem;
+      border-radius: 3px;
+      transform: scale(2);
+      outline: none;
+      border: none;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #333;
+    }
+  }
 }
