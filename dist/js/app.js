@@ -6,10 +6,12 @@ const bodyColor = document.getElementById('bodyColor');
 
 // On DOM load
 window.addEventListener('DOMContentLoaded', () => {
+  // set background gradient
   bodyColor.style.background = `linear-gradient(to right, ${color1.value}, ${
     color2.value
   })`;
 
+  // set text for gradient
   text.textContent = bodyColor.style.background;
 });
 
