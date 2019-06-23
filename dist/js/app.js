@@ -7,6 +7,8 @@ function getColor() {
   bodyColor.style.background = `linear-gradient(to right, ${color1.value}, ${
     color2.value
   })`;
+
+  text.textContent = bodyColor.style.background;
 }
 
 color1.addEventListener('input', getColor);
